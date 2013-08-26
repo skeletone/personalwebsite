@@ -1,0 +1,85 @@
+/*-------------Contact------------------*/
+
+.navigation {
+	background-color: #fff;
+	top: 0px;
+	position: fixed;
+	height: 300px;
+	width: 100%;
+}
+
+.contact ul{
+	height: 50px;
+	width: 110px;
+	position: absolute;
+	display: block;
+	right: 10px;
+	top: 0px;
+	padding-left: 0;
+}
+
+.contact li,.contact a{
+		display: block;
+		height: 100px;
+}
+
+.contact li{
+	top: 0;
+	position: relative;
+	float: left;        /* list the nav icons on the same line*/
+	text-indent: -9999px;
+    background-image: url(/assets/contact.png);
+    zoom: 0.5;
+    background-repeat: no-repeat;
+    background-size: 193px 100px;
+}
+
+.contact li:first-child {
+	background-position: 0 0;
+	left:0px;
+	height:100px;
+	width: 96.5px;
+}
+
+.contact li:last-child{
+	background-position: -100px 0;
+	left: 20px;
+	width:97px;
+	height:100px;
+}
+
+
+
+/*--------------Name--------------*/
+
+.name {
+	width: 216px;
+	margin: 0 auto;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+}
+
+.name text{
+	margin: 0 auto;
+	dominant-baseline: middle;
+}
+
+/*-------------Intro--------------*/
+.intro {
+	display: none;
+}
+
+.intro p{
+	width: 430px;
+	height: 150px;
+	margin: -130px auto;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 1.5;
+	color: rgb(106,131,114);
+	text-align: center;
+}
+
+

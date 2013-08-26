@@ -1,0 +1,16 @@
+.Mail@2x, .linkedin{
+	background: url(sprites.png) no-repeat;
+}
+
+.Mail@2x{
+	background-position: -194px 0;
+	width: 193px;
+	height: 200px;
+}
+
+.linkedin{
+	background-position: 0 -2px ;
+	width: 193px;
+	height: 200px;
+}
+

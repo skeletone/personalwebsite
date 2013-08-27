@@ -6,6 +6,7 @@
 	position: fixed;
 	height: 300px;
 	width: 100%;
+	text-align: center;
 }
 
 .contact ul{
@@ -53,7 +54,9 @@
 /*--------------Name--------------*/
 
 .name {
+	clear:both;
 	width: 216px;
+	height: 181px;
 	margin: 0 auto;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 400;
@@ -71,9 +74,9 @@
 }
 
 .intro p{
-	width: 430px;
+	width: 450px;
 	height: 150px;
-	margin: -130px auto;
+	margin: 0px auto;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 400;
 	font-size: 24px;
@@ -82,4 +85,42 @@
 	text-align: center;
 }
 
+/*-------------Navi--------------*/
+nav {
+	position: fixed;
+	width: 100%;
+	margin-top: 20px;
+}
 
+.naviicon {
+	display: block;
+	position: fixed;
+	width:100%;
+	margin: 0 auto;
+
+}
+
+.naviicon ul {
+	width: 70%;
+	padding:0;
+	margin: 0;
+	margin: 0px auto;
+	position: relative;
+}
+
+.naviicon li {
+	display: inline-block;
+	float: left;
+    padding: 0;
+	margin: 0;
+	text-align: center;
+	width: 25%;
+}
+
+.naviicon p {
+	display: inline-block;
+}
+
+
+
+/*----------screen size change---------*/
